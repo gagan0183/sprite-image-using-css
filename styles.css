@@ -1,0 +1,16 @@
+.box {
+    height: 54px;
+    width: 58px;
+    position: absolute;
+    box-sizing: border-box;
+    background: url(https://s23.postimg.org/biygmzw7f/character.jpg) -8px 0px;
+}
+
+.box.right {
+    background-position: -3px -121px;
+    animation: right-direction .8s steps(7) infinite;
+}
+
+@keyframes right-direction {
+    100% {background-position: -423px -121px;}
+}
